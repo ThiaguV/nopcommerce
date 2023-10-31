@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\nopCommerce\\src\\Plugins\\Nop.Plugin.Misc.Brevo\\Nop.Plugin.Misc.Brevo.csproj": {}
+  },
+  "projects": {
+    "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\nopCommerce\\src\\Plugins\\Nop.Plugin.Misc.Brevo\\Nop.Plugin.Misc.Brevo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\nopCommerce\\src\\Plugins\\Nop.Plugin.Misc.Brevo\\Nop.Plugin.Misc.Brevo.csproj",
+        "projectName": "Nop.Plugin.Misc.Brevo",
+        "projectPath": "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\nopCommerce\\src\\Plugins\\Nop.Plugin.Misc.Brevo\\Nop.Plugin.Misc.Brevo.csproj",
+        "packagesPath": "C:\\Users\\Saiganesh\\.nuget\\packages\\",
+        "outputPath": "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\nopCommerce\\src\\Plugins\\Nop.Plugin.Misc.Brevo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Saiganesh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\nopCommerce\\src\\Presentation\\Nop.Web\\Nop.Web.csproj": {
+                "projectPath": "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\nopCommerce\\src\\Presentation\\Nop.Web\\Nop.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.12.0, )"
+            },
+            "sib_api_v3_sdk": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\nopCommerce\\src\\Presentation\\Nop.Web\\Nop.Web.csproj": {
+      "version": "4.70.0",
+      "restore": {
+        "projectUniqueName": "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\nopCommerce\\src\\Presentation\\Nop.Web\\Nop.Web.csproj",
+        "projectName": "Nop.Web",
+        "projectPath": "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\nopCommerce\\src\\Presentation\\Nop.Web\\Nop.Web.csproj",
+        "packagesPath": "C:\\Users\\Saiganesh\\.nuget\\packages\\",
+        "outputPath": "D:\\SampleProjects\\dotNetProjects\\withRequirementss\\nopCommerse-packagesDotConfig\\nopCommerce\\src\\Presentation\\Nop.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Saiganesh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreLockProperties": {
+          "restorePackagesWithLockFile": "true"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Vanguard": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
